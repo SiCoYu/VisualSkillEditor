@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<skill id="root">
+    <section id="onstart">
+        <action id="savepos" targettype="9" isfaceto="1"/>
+        <action id="addimpact" impactid="215" targettype="1"/>
+        <action id="wait" time="834"/>
+        <action id="playanim" animid="1027"/>
+        <action id="playchaineffect" effectid="1316" isautodel="1" updatetype="2" posz="800"/>
+        <action id="setrangeeffect" effecttype="1" scale="800"/>
+    </section>
+    <section id="onframe" duration="4500">
+        <action id="clearscan"/>
+        <action id="scanray" objtype="4" maxnum="1" length="800" width="80"/>
+        <action id="select">
+            <action id="if">
+                <cond id="hastarget" targettype="16"/>
+                <action id="selectobj" targettype="16"/>
+            </action>
+            <action id="if">
+                <action id="setfaceto" postype="3" rotspeed="17"/>
+                <action id="playchaineffect" effectid="1316" isautodel="1" isupdate="1" updatetype="2" posz="800"/>
+                <action id="setrangeeffect" effecttype="1" scale="800"/>
+            </action>
+        </action>
+    </section>
+    <section id="ontick" duration="4500" interval="250">
+        <action id="select">
+            <action id="if">
+                <cond id="hastarget" targettype="16"/>
+                <action id="setfaceto" postype="5" isfacemodel="1"/>
+                <action id="playchaineffect" effectid="1316" targettype="16" isautodel="1" isupdate="1" updatetype="1"/>
+                <action id="setrangeeffect" effecttype="1" scaletype="1"/>
+                <action id="addimpact" impactid="155" targettype="16"/>
+                <action id="addimpact" impactid="156" targettype="16"/>
+            </action>
+        </action>
+    </section>
+    <section id="onfinish">
+        <action id="setfaceto"/>
+        <action id="stopeffect" effectid="1316"/>
+    </section>
+    <section id="onbreak">
+        <action id="setfaceto"/>
+        <action id="stopeffect" effectid="1316"/>
+    </section>
+    <infos/>
+</skill>

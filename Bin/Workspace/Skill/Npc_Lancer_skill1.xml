@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<skill id="root">
+    <section id="onstart">
+        <action id="setfaceto" postype="3" isfacemodel="1"/>
+        <action id="playanim" animid="1039" isautodel="1"/>
+        <action id="wait" time="100"/>
+        <action id="playrangeeffect" effecttype="1" effectshowtype="1" effecttime="700" effectdisapeartime="700" effectparam1="800" effectparam2="350"/>
+        <action id="wait" time="700"/>
+        <action id="playanim" animid="1050" isautodel="1"/>
+        <action id="telemoveto" duration="200" distance="800" obstacledis="200"/>
+        <action id="addimpact" impactid="211" targettype="2"/>
+        <action id="wait" time="200"/>
+        <action id="playanim" animid="1040" isautodel="1"/>
+        <action id="wait" time="380"/>
+        <action id="addimpact" impactid="212" targettype="2"/>
+    </section>
+    <infos/>
+</skill>

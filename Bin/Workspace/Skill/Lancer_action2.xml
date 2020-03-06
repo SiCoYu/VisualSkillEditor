@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<skill id="root">
+    <section id="onstart">
+        <action id="playanim" animid="1145" isautodel="1"/>
+        <action id="loop" count="4">
+            <action id="startfacingtarget" targettype="1" duration="300" isfacemodel="1" isautodel="1"/>
+            <action id="telemoveto" duration="300" distance="30" angle="180" isfaceto="0"/>
+            <action id="wait" time="300"/>
+        </action>
+    </section>
+    <section id="onfinish">
+        <action id="stopmove"/>
+    </section>
+    <infos/>
+</skill>

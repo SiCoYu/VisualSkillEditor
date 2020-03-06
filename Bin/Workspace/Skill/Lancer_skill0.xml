@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<skill id="root">
+    <section id="onstart">
+        <action id="savepos" targettype="2" postype="1" maxrandrange="500"/>
+        <action id="if" condvalue0_0="1">
+            <cond id="testtargetdir" targettype="32" mindir="45" maxdir="135"/>
+            <action id="playanim" animid="1143" isautodel="1"/>
+            <action id="movetopos" duration="50" speed="10000" postype="6" isfaceto="0"/>
+        </action>
+        <action id="if" condvalue0_0="1">
+            <cond id="testtargetdir" targettype="16" mindir="225" maxdir="315"/>
+            <action id="playanim" animid="1144" isautodel="1"/>
+            <action id="movetopos" duration="50" speed="10000" postype="6" isfaceto="0"/>
+        </action>
+        <action id="if" condvalue0_0="1">
+            <action id="playanim" animid="1145" isautodel="1"/>
+            <action id="startfacingtarget" targettype="1" duration="1000" isautodel="1"/>
+            <action id="movetopos" duration="50" speed="10000" postype="6" isfaceto="0"/>
+        </action>
+    </section>
+    <infos/>
+</skill>

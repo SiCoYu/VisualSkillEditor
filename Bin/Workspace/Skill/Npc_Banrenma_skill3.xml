@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<skill id="root">
+    <section id="onstart">
+        <action id="setfaceto" targettype="1" postype="3" rotspeed="360" isfacemodel="1"/>
+        <action id="wait" time="500"/>
+        <action id="playrangeeffect" effecttype="1" effectshowtype="1" effecttime="1000" effectdisapeartime="1800" effectparam1="1000" effectparam2="200"/>
+        <action id="savepos" postype="1" posdisoff="%1"/>
+        <action id="createnpc" npctype="1" npcid="311" postype="6" objname="#1"/>
+        <action id="wait" time="50"/>
+        <action id="savepos" postype="1" posdisoff="300"/>
+        <action id="createnpc" npctype="1" npcid="311" postype="6" objname="#2"/>
+        <action id="wait" time="50"/>
+        <action id="savepos" postype="1" posdisoff="600"/>
+        <action id="createnpc" npctype="1" npcid="311" postype="6" objname="#3"/>
+        <action id="wait" time="50"/>
+        <action id="savepos" postype="1" posdisoff="900"/>
+        <action id="createnpc" npctype="1" npcid="311" postype="6" objname="#4"/>
+    </section>
+    <section id="onbreak">
+        <action id="destroynpc" objname="#1"/>
+        <action id="destroynpc" objname="#2"/>
+        <action id="destroynpc" objname="#3"/>
+        <action id="destroynpc" objname="#4"/>
+    </section>
+    <section id="onfinish"/>
+    <infos/>
+</skill>

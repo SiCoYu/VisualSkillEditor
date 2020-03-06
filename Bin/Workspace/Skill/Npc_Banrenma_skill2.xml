@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<skill id="root">
+    <section id="onstart">
+        <action id="setfaceto" targettype="1" postype="3" rotspeed="500" isfacemodel="1"/>
+        <action id="playanim" animid="1090" isautodel="1"/>
+        <action id="wait" time="800"/>
+        <action id="playrangeeffect" effecttype="1" effectshowtype="1" effecttime="767" effectdisapeartime="767" effectparam1="1000" effectparam2="400"/>
+        <action id="wait" time="767"/>
+        <action id="addimpact" impactid="262" targettype="2" istargetself="1" maxnum="1" isautodel="1"/>
+        <action id="movetopos" speed="900" postype="3" stoprange="-800" animid="1091" maxdis="1000"/>
+        <action id="waitfinish"/>
+        <action id="playanim" animid="1092" isautodel="1"/>
+        <action id="wait" time="1567"/>
+        <action id="finishskill"/>
+    </section>
+    <section id="onbreak">
+        <action id="stopanim" animid="1090"/>
+        <action id="stopanim" animid="1091"/>
+        <action id="stopanim" animid="1092"/>
+    </section>
+    <section id="onfinish">
+        <action id="stopanim" animid="1090"/>
+        <action id="stopanim" animid="1091"/>
+        <action id="stopanim" animid="1092"/>
+    </section>
+    <infos/>
+</skill>

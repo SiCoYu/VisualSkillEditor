@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<skill id="root">
+    <section id="onstart">
+        <action id="playanim" animid="1112" isautodel="1"/>
+        <action id="wait" time="500"/>
+        <action id="savepos" targettype="1" postype="3"/>
+        <action id="createnpc" npctype="1" npcid="316" postype="3" objname="5"/>
+        <action id="movetopos" duration="700" speed="17000" postype="6" stoprange="200" isfaceto="0"/>
+        <action id="setfaceto" targettype="1" postype="3" rotspeed="600"/>
+    </section>
+    <infos/>
+</skill>

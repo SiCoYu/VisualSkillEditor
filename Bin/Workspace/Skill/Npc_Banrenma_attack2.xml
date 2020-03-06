@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<skill id="root">
+    <section id="onstart">
+        <action id="setfaceto" postype="3" rotspeed="360" isfacemodel="1"/>
+        <action id="wait" time="1200"/>
+        <action id="playrangeeffect" effecttype="4" effectshowtype="1" effecttime="1100" effectdisapeartime="1100" effectparam1="1000" effectparam2="90"/>
+    </section>
+    <infos>
+        <info id="0" info="等待时间"/>
+        <info id="1" info="跑动时间"/>
+        <info id="2" info="跑动距离&#10;"/>
+    </infos>
+</skill>
