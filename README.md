@@ -55,7 +55,7 @@
 + 段落-自定义段落：id可自定义，通过gotosection触发调用，相当于过程调用；
 + 段落-自定义事件：id可自定义，通过sendevent触发，与其他段落并发执行；
 
-![段落结构，编辑器自动生成](Guild/guild-sections.png)
+![段落结构](Guild/guild-sections.png)
 
 #### 技能指令
 
