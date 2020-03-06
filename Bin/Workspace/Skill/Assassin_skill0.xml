@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<skill id="root">
-    <section id="onstart">
-        <action id="startbulletfrozen" duration="10000" rate="5"/>
-        <action id="addimpact" impactid="30000" targettype="2" istargetself="1"/>
-    </section>
-    <infos/>
-</skill>

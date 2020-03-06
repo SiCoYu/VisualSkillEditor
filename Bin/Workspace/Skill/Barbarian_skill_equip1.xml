@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<skill id="root">
-    <section id="onstart">
-        <action id="wait" time="720"/>
-        <action id="savepos" postype="1" posdisoff="300"/>
-        <action id="createnpc" npctype="1" npcid="405" postype="6" objname="#401"/>
-    </section>
-    <infos/>
-</skill>

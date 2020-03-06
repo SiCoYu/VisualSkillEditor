@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<skill id="root">
-    <section id="onstart">
-        <action id="setfaceto" postype="3" rotspeed="250" isfacemodel="1"/>
-    </section>
-    <infos/>
-</skill>

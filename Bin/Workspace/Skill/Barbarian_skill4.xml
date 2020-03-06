@@ -11,7 +11,7 @@
     </section>
     <section id="ontick" interval="300">
         <action id="select">
-            <action id="if">
+            <action id="if" condtype0="104" condvalue0_0="1" condvalue0_1="5" condvalue0_2="4">
                 <cond id="cmpbaseattr" attrtype="1" cmptype="5" value="4"/>
                 <action id="breakskill"/>
             </action>
