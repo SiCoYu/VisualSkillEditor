@@ -95,17 +95,17 @@
 
 *****
 Visual Studio编译：
-1.安装环境，参考[Qt环境搭建(Visual Studio)](https://blog.csdn.net/liang19890820/article/details/49874033)。
-2.Visual Studio打开[工程文件](SkillEditor.sln)。
-3.编译工程，输出到[Bin目录](Bin)。
-4.(可选)如果需要迁移到其他环境运行，执行[部署文件](Bin/Deploy.cmd)(需指定Qt安装目录)。
+1. 安装环境，参考[Qt环境搭建(Visual Studio)](https://blog.csdn.net/liang19890820/article/details/49874033)
+2. Visual Studio打开[工程文件](SkillEditor.sln)。
+3. 编译工程，输出到[Bin目录](Bin)。
+4. (可选)如果需要迁移到其他环境运行，执行[部署文件](Bin/Deploy.cmd)(需指定Qt安装目录)。
 
 *****
 Qt Creator编译：
-1.安装Qt，所有Qt版本[下载](http://download.qt.io/archive/qt/)。
-2.Qt打开[工程文件](SkillEditor.pro)。
-3.编译工程，输出到[Bin目录](Bin)。
-4.(可选)如果需要迁移到其他环境运行，执行[部署文件](Bin/Deploy.cmd)(需指定Qt安装目录)。
+1. 安装Qt，所有Qt版本[下载](http://download.qt.io/archive/qt/)。
+2. Qt打开[工程文件](SkillEditor.pro)。
+3. 编译工程，输出到[Bin目录](Bin)。
+4. (可选)如果需要迁移到其他环境运行，执行[部署文件](Bin/Deploy.cmd)(需指定Qt安装目录)。
 
 
 ## 维护者
