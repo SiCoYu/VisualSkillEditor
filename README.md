@@ -21,7 +21,8 @@
     - [参数说明](#参数说明)
 - [编译](#编译)
 - [维护者](#维护者)
-- [如何贡献](#如何贡献)
+- [贡献者](#贡献者)
+    - [如何贡献](#如何贡献)
 - [使用许可](#使用许可)
 
 ## 背景
@@ -111,9 +112,12 @@ Qt Creator编译：
 
 ## 维护者
 
-[@River.Li](https://github.com/River-Li-1024).
+[@River.Li](https://github.com/River-Li-1024)
 
-## 如何贡献
+## 贡献者
+[@stallboy(cxs)](https://github.com/stallboy)
+
+### 如何贡献
 
 非常欢迎你的加入! [提一个Issue](https://github.com/River-Li-1024/VisualSkillEditor/issues/new) 或者提交一个 Pull R equest.
 
